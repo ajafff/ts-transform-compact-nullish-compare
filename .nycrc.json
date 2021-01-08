@@ -1,0 +1,18 @@
+{
+    "include": [
+      "src",
+      "dist"
+    ],
+    "extensions": [
+      ".js",
+      ".ts"
+    ],
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "html"
+    ],
+    "sourceMap": true,
+    "all": true,
+    "cache": true
+  }

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "../out",
+    "target": "ES2019",
+    "plugins": [
+      { "transform": "../../dist", "after": true },
+    ]
+  }
+}
