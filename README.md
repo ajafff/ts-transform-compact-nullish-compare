@@ -32,7 +32,7 @@ Execution time is probably not affected by this change.
 #### Code coverage
 
 The additional branches in the transpiled code increase the "Branches" count in code coverage reports.
-This transform removes on of those branches.
+This transform removes one of those branches.
 
 ## Usage with `ttypescript`
 
@@ -44,7 +44,7 @@ You can configure it in your `tsconfig.json`:
 {
   "compilerOptions": {
     "plugins": [
-      { "transform": "ts-transform-compact-nullish-compare" }
+      { "transform": "ts-transform-compact-nullish-compare", "after": true }
     ]
   }
 }
